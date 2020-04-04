@@ -1,0 +1,116 @@
+.container {
+	max-width: 1640px;
+	width: 100%;
+	margin: 0 auto;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 207px;
+}
+
+.uli {
+	display: flex;
+}
+
+.nav{
+	display: flex;
+
+}
+.burger-bar{
+    display: none;
+}
+
+.header-foto {
+	background-image: url(../images/map.jpg);
+	height: 608px;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.lii {
+	margin-right: 110px;
+}
+.nav-a {
+	color: inherit;
+ }
+
+.input-wraper {
+	width: 100%;
+	margin-top:8px;
+	border:none;
+	border-bottom: 2px dashed grey;
+	color:red;
+	font-style: italic;
+}
+.form-group {
+	max-width: 600px;
+	width:100%;
+	margin: 0 auto;
+}
+.form-wraper {
+	margin-top:23px;
+}
+.btn {
+	background-color: #707070;
+	color: #FFFFFF
+	border:none;
+	margin-top:15px;
+	padding: 15px;
+	width:150px;
+}
+.btn-form {
+	text-align: center;
+}
+.textarea-wraper {
+	width: 100%;
+	resize: none;
+	height: 150px;
+}
+.input-wraper,
+.textarea-wraper:focus {
+	outline: none;
+}
+.input-wraper::placeholder {
+	color: #2E2E2E;
+	padding-left:8px;
+}
+ .footer{
+	height: 206px;
+    width: 100%;
+    background-color: #2E2E2E;
+    margin-top: 68px;
+    color: #F2F2F2;
+}
+
+.footer-container{
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100%;
+}
+.social{
+	font-size: 40px;
+}
+.contact h5,
+.address h5{
+    font-size: 20px;
+}
+.contact p,
+.address p{
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 17px;
+}
